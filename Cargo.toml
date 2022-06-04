@@ -1,0 +1,13 @@
+[package]
+name = "birch"
+version = "0.1.0"
+description = "LR(K) Parser"
+authors = ["Ramnath R Iyer <riyer@optimix.dev"]
+edition = "2021"
+license = "Apache-2.0"
+keywords = ["parsing"]
+categories = ["parsing"]
+readme = "README.md"
+
+[dev-dependencies]
+uuid = {version = "1.1.1", features = ["v4", "fast-rng"]}
